@@ -10,6 +10,8 @@ Then run the following command `npm start` in both client and server directories
 
 All the data shown here is dynamic and coming directly from mongoDB, you can change the selected month to see the data of different months.
 
+Here pagination might not work as expected because the limit of single-page is 10, and there are less than 10 products in each month.
+
 ![Dashboard](screenshots/dashboard.png)
 
 ![Statistics](screenshots/statistics.png)
